@@ -8,11 +8,24 @@
 import SwiftUI
 import Combine
 
-struct ContentView: View {
+struct AuthView: View {
     
+    @Binding var isUserLoggedIn: Bool
+    
+    @State private var showIncorrectCredentialsAlert = false
     @State private var login = ""
     @State private var password = ""
     @State private var shouldShowLogo = true
+    
+    
+    private func verifyLoginData() {
+    if login == "1" && password == "1" {
+        isUserLoggedIn = true
+    } else {
+        showIncorrectCredentialsAlert = true
+    }
+         
+    password = "" }
     
     private let keyboardPublisher = Publishers.Merge(
         NotificationCenter.default.publisher(for: UIResponder.keyboardWillShowNotification)
@@ -80,7 +93,8 @@ struct ContentView: View {
                     }
                 
                     HStack {
-                        Button("Войти") {print("Login Pressed")
+                        Button(action: verifyLoginData) {
+                            Text ("Войти")
                         }
                         .padding([.vertical, .horizontal], 7.0)
                         .foregroundColor(Color.white)
@@ -121,6 +135,10 @@ struct ContentView: View {
         }
     }
 }
+        .alert(isPresented: self.$showIncorrectCredentialsAlert, content: {
+            
+            Alert(title: Text("Неправильные учетные данные"), message: Text("Неверный логин или пароль"), dismissButton: .cancel())
+        })
         .onTapGesture {
             UIApplication.shared.endEditing()
         }
@@ -138,9 +156,9 @@ extension UIApplication {
         self.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .previewInterfaceOrientation(.portrait)
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AuthView()
+//            .previewInterfaceOrientation(.portrait)
+//    }
+//}

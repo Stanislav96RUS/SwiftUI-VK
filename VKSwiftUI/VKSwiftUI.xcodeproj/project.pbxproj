@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		85433E102875BB9600C07413 /* VKSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85433E0F2875BB9600C07413 /* VKSwiftUIApp.swift */; };
-		85433E122875BB9600C07413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85433E112875BB9600C07413 /* ContentView.swift */; };
+		85433E122875BB9600C07413 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85433E112875BB9600C07413 /* AuthView.swift */; };
 		85433E142875BB9800C07413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85433E132875BB9800C07413 /* Assets.xcassets */; };
 		85433E172875BB9800C07413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85433E162875BB9800C07413 /* Preview Assets.xcassets */; };
+		854AB102287EC018001409DA /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AB101287EC018001409DA /* NewsView.swift */; };
+		859A68F2287D89860036C0CB /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F1287D89860036C0CB /* ContainerView.swift */; };
+		859A68F4287D89F90036C0CB /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F3287D89F90036C0CB /* FriendsView.swift */; };
+		859A68F7287D8B320036C0CB /* FriendCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F6287D8B320036C0CB /* FriendCellView.swift */; };
+		859A68F9287D8B4D0036C0CB /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F8287D8B4D0036C0CB /* FriendModel.swift */; };
+		859A68FC287D97B30036C0CB /* FotoFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68FB287D97B30036C0CB /* FotoFriendView.swift */; };
+		859A6903287DA4060036C0CB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6902287DA4060036C0CB /* MainView.swift */; };
+		859A6906287DAC5C0036C0CB /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6905287DAC5C0036C0CB /* GroupsView.swift */; };
+		859A6908287DAC7E0036C0CB /* GroupCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6907287DAC7E0036C0CB /* GroupCellView.swift */; };
+		859A690A287DAC8F0036C0CB /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6909287DAC8E0036C0CB /* GroupModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85433E0C2875BB9600C07413 /* VKSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85433E0F2875BB9600C07413 /* VKSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKSwiftUIApp.swift; sourceTree = "<group>"; };
-		85433E112875BB9600C07413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85433E112875BB9600C07413 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		85433E132875BB9800C07413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85433E162875BB9800C07413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		854AB101287EC018001409DA /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		859A68F1287D89860036C0CB /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		859A68F3287D89F90036C0CB /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		859A68F6287D8B320036C0CB /* FriendCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCellView.swift; sourceTree = "<group>"; };
+		859A68F8287D8B4D0036C0CB /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		859A68FB287D97B30036C0CB /* FotoFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoFriendView.swift; sourceTree = "<group>"; };
+		859A6902287DA4060036C0CB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		859A6905287DAC5C0036C0CB /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		859A6907287DAC7E0036C0CB /* GroupCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellView.swift; sourceTree = "<group>"; };
+		859A6909287DAC8E0036C0CB /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				85433E0F2875BB9600C07413 /* VKSwiftUIApp.swift */,
-				85433E112875BB9600C07413 /* ContentView.swift */,
+				85433E112875BB9600C07413 /* AuthView.swift */,
+				859A68F1287D89860036C0CB /* ContainerView.swift */,
+				859A6902287DA4060036C0CB /* MainView.swift */,
+				859A68F5287D8AB50036C0CB /* Friends */,
+				859A68FA287D972B0036C0CB /* FotoFriend */,
+				859A6904287DAC1A0036C0CB /* Groups */,
+				854AB100287EBFED001409DA /* News */,
 				85433E132875BB9800C07413 /* Assets.xcassets */,
 				85433E152875BB9800C07413 /* Preview Content */,
 			);
@@ -65,6 +91,42 @@
 				85433E162875BB9800C07413 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		854AB100287EBFED001409DA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				854AB101287EC018001409DA /* NewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		859A68F5287D8AB50036C0CB /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				859A68F3287D89F90036C0CB /* FriendsView.swift */,
+				859A68F6287D8B320036C0CB /* FriendCellView.swift */,
+				859A68F8287D8B4D0036C0CB /* FriendModel.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		859A68FA287D972B0036C0CB /* FotoFriend */ = {
+			isa = PBXGroup;
+			children = (
+				859A68FB287D97B30036C0CB /* FotoFriendView.swift */,
+			);
+			path = FotoFriend;
+			sourceTree = "<group>";
+		};
+		859A6904287DAC1A0036C0CB /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				859A6905287DAC5C0036C0CB /* GroupsView.swift */,
+				859A6907287DAC7E0036C0CB /* GroupCellView.swift */,
+				859A6909287DAC8E0036C0CB /* GroupModel.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,8 @@
 			dependencies = (
 			);
 			name = VKSwiftUI;
+			packageProductDependencies = (
+			);
 			productName = VKSwiftUI;
 			productReference = 85433E0C2875BB9600C07413 /* VKSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,8 @@
 				Base,
 			);
 			mainGroup = 85433E032875BB9600C07413;
+			packageReferences = (
+			);
 			productRefGroup = 85433E0D2875BB9600C07413 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +203,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85433E122875BB9600C07413 /* ContentView.swift in Sources */,
+				859A690A287DAC8F0036C0CB /* GroupModel.swift in Sources */,
+				859A6906287DAC5C0036C0CB /* GroupsView.swift in Sources */,
+				859A68FC287D97B30036C0CB /* FotoFriendView.swift in Sources */,
+				859A6903287DA4060036C0CB /* MainView.swift in Sources */,
+				85433E122875BB9600C07413 /* AuthView.swift in Sources */,
+				859A6908287DAC7E0036C0CB /* GroupCellView.swift in Sources */,
+				859A68F9287D8B4D0036C0CB /* FriendModel.swift in Sources */,
 				85433E102875BB9600C07413 /* VKSwiftUIApp.swift in Sources */,
+				859A68F4287D89F90036C0CB /* FriendsView.swift in Sources */,
+				854AB102287EC018001409DA /* NewsView.swift in Sources */,
+				859A68F7287D8B320036C0CB /* FriendCellView.swift in Sources */,
+				859A68F2287D89860036C0CB /* ContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
