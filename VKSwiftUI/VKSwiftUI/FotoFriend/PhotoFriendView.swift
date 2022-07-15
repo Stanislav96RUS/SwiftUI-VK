@@ -17,6 +17,7 @@ struct PhotosFriendView: View {
     init(viewModel: PhotoViewModel, id: Int) {
         self.id = id
         self.viewModel = viewModel
+        
 
     }
     

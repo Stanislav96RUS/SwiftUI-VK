@@ -12,6 +12,7 @@ struct GroupsView: View {
 
     init(viewModel: GroupViewModel) {
         self.viewModel = viewModel
+        viewModel.fetch()
     }
     
     var body: some View {

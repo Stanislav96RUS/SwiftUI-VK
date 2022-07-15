@@ -13,6 +13,7 @@ struct FriendsView: View {
     
     init(viewModel: FriendViewModel) {
         self.viewModel = viewModel
+        viewModel.fetch()
     }
     
     var body: some View {

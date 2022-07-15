@@ -28,9 +28,6 @@ struct VKSwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-<<<<<<< Updated upstream
-            ContentView()
-=======
             if showUserScreens {
                 ContainerView()
             } else {
@@ -44,7 +41,6 @@ struct VKSwiftUIApp: App {
             }
                 
             
->>>>>>> Stashed changes
         }
     }
 }

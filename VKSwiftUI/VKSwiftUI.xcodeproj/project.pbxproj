@@ -21,11 +21,9 @@
 		8541937A288145050026CAA7 /* GroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85419379288145050026CAA7 /* GroupViewModel.swift */; };
 		854193852881575F0026CAA7 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854193842881575F0026CAA7 /* NewsView.swift */; };
 		85433E102875BB9600C07413 /* VKSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85433E0F2875BB9600C07413 /* VKSwiftUIApp.swift */; };
-		85433E122875BB9600C07413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85433E112875BB9600C07413 /* ContentView.swift */; };
+		85433E122875BB9600C07413 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85433E112875BB9600C07413 /* AuthView.swift */; };
 		85433E142875BB9800C07413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85433E132875BB9800C07413 /* Assets.xcassets */; };
 		85433E172875BB9800C07413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85433E162875BB9800C07413 /* Preview Assets.xcassets */; };
-<<<<<<< Updated upstream
-=======
 		859A68F2287D89860036C0CB /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F1287D89860036C0CB /* ContainerView.swift */; };
 		859A68F4287D89F90036C0CB /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F3287D89F90036C0CB /* FriendsView.swift */; };
 		859A68F7287D8B320036C0CB /* FriendCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A68F6287D8B320036C0CB /* FriendCellView.swift */; };
@@ -35,7 +33,6 @@
 		859A6906287DAC5C0036C0CB /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6905287DAC5C0036C0CB /* GroupsView.swift */; };
 		859A6908287DAC7E0036C0CB /* GroupCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6907287DAC7E0036C0CB /* GroupCellView.swift */; };
 		859A690A287DAC8F0036C0CB /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6909287DAC8E0036C0CB /* GroupModel.swift */; };
->>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,11 +50,9 @@
 		854193842881575F0026CAA7 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		85433E0C2875BB9600C07413 /* VKSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85433E0F2875BB9600C07413 /* VKSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKSwiftUIApp.swift; sourceTree = "<group>"; };
-		85433E112875BB9600C07413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85433E112875BB9600C07413 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		85433E132875BB9800C07413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85433E162875BB9800C07413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
 		859A68F1287D89860036C0CB /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		859A68F3287D89F90036C0CB /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		859A68F6287D8B320036C0CB /* FriendCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCellView.swift; sourceTree = "<group>"; };
@@ -67,7 +62,6 @@
 		859A6905287DAC5C0036C0CB /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		859A6907287DAC7E0036C0CB /* GroupCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellView.swift; sourceTree = "<group>"; };
 		859A6909287DAC8E0036C0CB /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				85433E0F2875BB9600C07413 /* VKSwiftUIApp.swift */,
-<<<<<<< Updated upstream
-				85433E112875BB9600C07413 /* ContentView.swift */,
-=======
 				85433E112875BB9600C07413 /* AuthView.swift */,
 				8526DD0F287FFA0700B823F6 /* VKLoginWebView.swift */,
 				859A68F1287D89860036C0CB /* ContainerView.swift */,
@@ -126,7 +117,6 @@
 				859A68FA287D972B0036C0CB /* FotoFriend */,
 				859A6904287DAC1A0036C0CB /* Groups */,
 				854AB100287EBFED001409DA /* News */,
->>>>>>> Stashed changes
 				85433E132875BB9800C07413 /* Assets.xcassets */,
 				85433E152875BB9800C07413 /* Preview Content */,
 			);
@@ -141,8 +131,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream
-=======
 		854AB100287EBFED001409DA /* News */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +172,6 @@
 			path = Groups;
 			sourceTree = "<group>";
 		};
->>>>>>> Stashed changes
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,12 +188,9 @@
 			dependencies = (
 			);
 			name = VKSwiftUI;
-<<<<<<< Updated upstream
-=======
 			packageProductDependencies = (
 				8541936F288101860026CAA7 /* Kingfisher */,
 			);
->>>>>>> Stashed changes
 			productName = VKSwiftUI;
 			productReference = 85433E0C2875BB9600C07413 /* VKSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -235,12 +219,9 @@
 				Base,
 			);
 			mainGroup = 85433E032875BB9600C07413;
-<<<<<<< Updated upstream
-=======
 			packageReferences = (
 				8541936E288101860026CAA7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
->>>>>>> Stashed changes
 			productRefGroup = 85433E0D2875BB9600C07413 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,10 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< Updated upstream
-				85433E122875BB9600C07413 /* ContentView.swift in Sources */,
-				85433E102875BB9600C07413 /* VKSwiftUIApp.swift in Sources */,
-=======
 				8526DD142880094D00B823F6 /* PhotoCell.swift in Sources */,
 				859A690A287DAC8F0036C0CB /* GroupModel.swift in Sources */,
 				8526DD10287FFA0700B823F6 /* VKLoginWebView.swift in Sources */,
@@ -294,7 +271,6 @@
 				854193852881575F0026CAA7 /* NewsView.swift in Sources */,
 				859A68F7287D8B320036C0CB /* FriendCellView.swift in Sources */,
 				859A68F2287D89860036C0CB /* ContainerView.swift in Sources */,
->>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
