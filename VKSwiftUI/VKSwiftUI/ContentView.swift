@@ -138,9 +138,12 @@ extension UIApplication {
         self.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
+<<<<<<< Updated upstream:VKSwiftUI/VKSwiftUI/ContentView.swift
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewInterfaceOrientation(.portrait)
     }
 }
+=======
+>>>>>>> Stashed changes:VKSwiftUI/VKSwiftUI/AuthView.swift
