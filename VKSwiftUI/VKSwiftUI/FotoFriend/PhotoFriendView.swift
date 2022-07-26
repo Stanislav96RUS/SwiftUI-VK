@@ -17,6 +17,7 @@ struct PhotosFriendView: View {
     init(viewModel: PhotoViewModel, id: Int) {
         self.id = id
         self.viewModel = viewModel
+        viewModel.fetch()
         
 
     }
@@ -31,6 +32,8 @@ struct PhotosFriendView: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100, height: 100, alignment: .leading)
                             .clipped()
+                            .overlay(alignment: .bottom){
+                                LikesUI()}
                     }
                 }
               

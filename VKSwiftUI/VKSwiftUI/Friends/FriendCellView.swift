@@ -13,10 +13,14 @@ struct FriendCellView: View {
     let name: String
     let avatar: String
     
+   
+    
     var body: some View {
         HStack {
             AvatarOfCell {
+                
                 KFImage(URL(string: avatar))
+
             }
             
             Text(name)
@@ -27,6 +31,7 @@ struct FriendCellView: View {
 
         }
         .padding()
+   
     }
 }
 
