@@ -12,17 +12,30 @@ struct AvatarOfCell: View {
     var content: KFImage
     private var size = 90.0
     
+    @State private var isPressed: Bool = false
+   
     init(@ViewBuilder content: () -> KFImage) {
         self.content = content()
+        
     }
     
     var body: some View {
         content
+        
             .resizable()
             .frame(width: size, height: size)
             .cornerRadius(size / 2)
             .clipped()
             .setShadow(shadowColor: .purple, shadowRadius: 10.0)
+            .scaleEffect(isPressed ? 1.2 : 1)
+            .animation(.spring(response: 0.8, dampingFraction: 0.1), value: isPressed)
+            .onTapGesture {
+                        isPressed.toggle()
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                        isPressed.toggle()
+                        }
+            }
+        
     }
     
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FriendsView: View {
-    
+
     @ObservedObject var viewModel: FriendViewModel
     
     init(viewModel: FriendViewModel) {
@@ -25,7 +25,9 @@ struct FriendsView: View {
                 )) {
                 FriendCellView(name: friend.name, avatar: friend.avatar)
             }
+                
         }
+       
         .onAppear(perform: viewModel.fetch)
     }
 }

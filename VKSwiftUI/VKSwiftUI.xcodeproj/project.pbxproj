@@ -33,6 +33,7 @@
 		859A6906287DAC5C0036C0CB /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6905287DAC5C0036C0CB /* GroupsView.swift */; };
 		859A6908287DAC7E0036C0CB /* GroupCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6907287DAC7E0036C0CB /* GroupCellView.swift */; };
 		859A690A287DAC8F0036C0CB /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A6909287DAC8E0036C0CB /* GroupModel.swift */; };
+		859C43F9288FDBF3005968A2 /* LikesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C43F8288FDBF3005968A2 /* LikesUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		859A6905287DAC5C0036C0CB /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		859A6907287DAC7E0036C0CB /* GroupCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellView.swift; sourceTree = "<group>"; };
 		859A6909287DAC8E0036C0CB /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		859C43F8288FDBF3005968A2 /* LikesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				8526DD15288009B700B823F6 /* PhotoModel.swift */,
 				8526DD132880094D00B823F6 /* PhotoCell.swift */,
 				85419373288103980026CAA7 /* PhotoViewModel.swift */,
+				859C43F8288FDBF3005968A2 /* LikesUI.swift */,
 			);
 			path = FotoFriend;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				8526DD16288009B700B823F6 /* PhotoModel.swift in Sources */,
 				859A6906287DAC5C0036C0CB /* GroupsView.swift in Sources */,
 				859A68FC287D97B30036C0CB /* PhotoFriendView.swift in Sources */,
+				859C43F9288FDBF3005968A2 /* LikesUI.swift in Sources */,
 				859A6903287DA4060036C0CB /* MainView.swift in Sources */,
 				8541936D288100F80026CAA7 /* Request.swift in Sources */,
 				85433E122875BB9600C07413 /* AuthView.swift in Sources */,
