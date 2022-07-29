@@ -26,10 +26,14 @@ struct VKSwiftUIApp: App {
 //}
     @State private var showUserScreens = false
     
+    @StateObject var coordinator = MainCoordinator()
+    
     var body: some Scene {
         WindowGroup {
             if showUserScreens {
-                ContainerView()
+                
+                MainViewCoordinator(coordinator: coordinator)
+//                ContainerView()
             } else {
                 VKLoginWebView()
                     .onReceive(
